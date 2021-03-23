@@ -47,6 +47,7 @@ export default function Simple() {
         bg={useColorModeValue("gray.800", "gray.900")}
         px={4}
         color={"white"}
+        zIndex={10}
       >
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
